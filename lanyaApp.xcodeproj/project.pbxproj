@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D466C95B20EDACC700F0FE7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D466C95A20EDACC700F0FE7B /* AppDelegate.m */; };
+		D466C95E20EDACC700F0FE7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D466C95D20EDACC700F0FE7B /* ViewController.m */; };
+		D466C96120EDACC700F0FE7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D466C95F20EDACC700F0FE7B /* Main.storyboard */; };
+		D466C96320EDACC700F0FE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D466C96220EDACC700F0FE7B /* Assets.xcassets */; };
+		D466C96620EDACC700F0FE7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D466C96420EDACC700F0FE7B /* LaunchScreen.storyboard */; };
+		D466C96920EDACC700F0FE7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D466C96820EDACC700F0FE7B /* main.m */; };
+		D466C97320EDACC700F0FE7B /* lanyaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D466C97220EDACC700F0FE7B /* lanyaAppTests.m */; };
+		D466C97E20EDACC700F0FE7B /* lanyaAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D466C97D20EDACC700F0FE7B /* lanyaAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D466C96F20EDACC700F0FE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D466C94E20EDACC600F0FE7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D466C95520EDACC700F0FE7B;
+			remoteInfo = lanyaApp;
+		};
+		D466C97A20EDACC700F0FE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D466C94E20EDACC600F0FE7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D466C95520EDACC700F0FE7B;
+			remoteInfo = lanyaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D466C95620EDACC700F0FE7B /* lanyaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lanyaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D466C95920EDACC700F0FE7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D466C95A20EDACC700F0FE7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D466C95C20EDACC700F0FE7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D466C95D20EDACC700F0FE7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D466C96020EDACC700F0FE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D466C96220EDACC700F0FE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D466C96520EDACC700F0FE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D466C96720EDACC700F0FE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D466C96820EDACC700F0FE7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D466C96E20EDACC700F0FE7B /* lanyaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lanyaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D466C97220EDACC700F0FE7B /* lanyaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lanyaAppTests.m; sourceTree = "<group>"; };
+		D466C97420EDACC700F0FE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D466C97920EDACC700F0FE7B /* lanyaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lanyaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D466C97D20EDACC700F0FE7B /* lanyaAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lanyaAppUITests.m; sourceTree = "<group>"; };
+		D466C97F20EDACC700F0FE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D466C95320EDACC700F0FE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D466C96B20EDACC700F0FE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D466C97620EDACC700F0FE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D466C94D20EDACC600F0FE7B = {
+			isa = PBXGroup;
+			children = (
+				D466C95820EDACC700F0FE7B /* lanyaApp */,
+				D466C97120EDACC700F0FE7B /* lanyaAppTests */,
+				D466C97C20EDACC700F0FE7B /* lanyaAppUITests */,
+				D466C95720EDACC700F0FE7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D466C95720EDACC700F0FE7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D466C95620EDACC700F0FE7B /* lanyaApp.app */,
+				D466C96E20EDACC700F0FE7B /* lanyaAppTests.xctest */,
+				D466C97920EDACC700F0FE7B /* lanyaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D466C95820EDACC700F0FE7B /* lanyaApp */ = {
+			isa = PBXGroup;
+			children = (
+				D466C95920EDACC700F0FE7B /* AppDelegate.h */,
+				D466C95A20EDACC700F0FE7B /* AppDelegate.m */,
+				D466C95C20EDACC700F0FE7B /* ViewController.h */,
+				D466C95D20EDACC700F0FE7B /* ViewController.m */,
+				D466C95F20EDACC700F0FE7B /* Main.storyboard */,
+				D466C96220EDACC700F0FE7B /* Assets.xcassets */,
+				D466C96420EDACC700F0FE7B /* LaunchScreen.storyboard */,
+				D466C96720EDACC700F0FE7B /* Info.plist */,
+				D466C96820EDACC700F0FE7B /* main.m */,
+			);
+			path = lanyaApp;
+			sourceTree = "<group>";
+		};
+		D466C97120EDACC700F0FE7B /* lanyaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D466C97220EDACC700F0FE7B /* lanyaAppTests.m */,
+				D466C97420EDACC700F0FE7B /* Info.plist */,
+			);
+			path = lanyaAppTests;
+			sourceTree = "<group>";
+		};
+		D466C97C20EDACC700F0FE7B /* lanyaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D466C97D20EDACC700F0FE7B /* lanyaAppUITests.m */,
+				D466C97F20EDACC700F0FE7B /* Info.plist */,
+			);
+			path = lanyaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D466C95520EDACC700F0FE7B /* lanyaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D466C98220EDACC700F0FE7B /* Build configuration list for PBXNativeTarget "lanyaApp" */;
+			buildPhases = (
+				D466C95220EDACC700F0FE7B /* Sources */,
+				D466C95320EDACC700F0FE7B /* Frameworks */,
+				D466C95420EDACC700F0FE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lanyaApp;
+			productName = lanyaApp;
+			productReference = D466C95620EDACC700F0FE7B /* lanyaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D466C96D20EDACC700F0FE7B /* lanyaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D466C98520EDACC700F0FE7B /* Build configuration list for PBXNativeTarget "lanyaAppTests" */;
+			buildPhases = (
+				D466C96A20EDACC700F0FE7B /* Sources */,
+				D466C96B20EDACC700F0FE7B /* Frameworks */,
+				D466C96C20EDACC700F0FE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D466C97020EDACC700F0FE7B /* PBXTargetDependency */,
+			);
+			name = lanyaAppTests;
+			productName = lanyaAppTests;
+			productReference = D466C96E20EDACC700F0FE7B /* lanyaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D466C97820EDACC700F0FE7B /* lanyaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D466C98820EDACC700F0FE7B /* Build configuration list for PBXNativeTarget "lanyaAppUITests" */;
+			buildPhases = (
+				D466C97520EDACC700F0FE7B /* Sources */,
+				D466C97620EDACC700F0FE7B /* Frameworks */,
+				D466C97720EDACC700F0FE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D466C97B20EDACC700F0FE7B /* PBXTargetDependency */,
+			);
+			name = lanyaAppUITests;
+			productName = lanyaAppUITests;
+			productReference = D466C97920EDACC700F0FE7B /* lanyaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D466C94E20EDACC600F0FE7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = nqkj;
+				TargetAttributes = {
+					D466C95520EDACC700F0FE7B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D466C96D20EDACC700F0FE7B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D466C95520EDACC700F0FE7B;
+					};
+					D466C97820EDACC700F0FE7B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D466C95520EDACC700F0FE7B;
+					};
+				};
+			};
+			buildConfigurationList = D466C95120EDACC600F0FE7B /* Build configuration list for PBXProject "lanyaApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D466C94D20EDACC600F0FE7B;
+			productRefGroup = D466C95720EDACC700F0FE7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D466C95520EDACC700F0FE7B /* lanyaApp */,
+				D466C96D20EDACC700F0FE7B /* lanyaAppTests */,
+				D466C97820EDACC700F0FE7B /* lanyaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D466C95420EDACC700F0FE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D466C96620EDACC700F0FE7B /* LaunchScreen.storyboard in Resources */,
+				D466C96320EDACC700F0FE7B /* Assets.xcassets in Resources */,
+				D466C96120EDACC700F0FE7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D466C96C20EDACC700F0FE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D466C97720EDACC700F0FE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D466C95220EDACC700F0FE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D466C95E20EDACC700F0FE7B /* ViewController.m in Sources */,
+				D466C96920EDACC700F0FE7B /* main.m in Sources */,
+				D466C95B20EDACC700F0FE7B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D466C96A20EDACC700F0FE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D466C97320EDACC700F0FE7B /* lanyaAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D466C97520EDACC700F0FE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D466C97E20EDACC700F0FE7B /* lanyaAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D466C97020EDACC700F0FE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D466C95520EDACC700F0FE7B /* lanyaApp */;
+			targetProxy = D466C96F20EDACC700F0FE7B /* PBXContainerItemProxy */;
+		};
+		D466C97B20EDACC700F0FE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D466C95520EDACC700F0FE7B /* lanyaApp */;
+			targetProxy = D466C97A20EDACC700F0FE7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D466C95F20EDACC700F0FE7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D466C96020EDACC700F0FE7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D466C96420EDACC700F0FE7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D466C96520EDACC700F0FE7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D466C98020EDACC700F0FE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D466C98120EDACC700F0FE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D466C98320EDACC700F0FE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3N49Y8JQP;
+				INFOPLIST_FILE = lanyaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nqkj.lanyaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D466C98420EDACC700F0FE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3N49Y8JQP;
+				INFOPLIST_FILE = lanyaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nqkj.lanyaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D466C98620EDACC700F0FE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lanyaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nqkj.lanyaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lanyaApp.app/lanyaApp";
+			};
+			name = Debug;
+		};
+		D466C98720EDACC700F0FE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lanyaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nqkj.lanyaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lanyaApp.app/lanyaApp";
+			};
+			name = Release;
+		};
+		D466C98920EDACC700F0FE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lanyaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nqkj.lanyaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lanyaApp;
+			};
+			name = Debug;
+		};
+		D466C98A20EDACC700F0FE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lanyaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nqkj.lanyaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lanyaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D466C95120EDACC600F0FE7B /* Build configuration list for PBXProject "lanyaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D466C98020EDACC700F0FE7B /* Debug */,
+				D466C98120EDACC700F0FE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D466C98220EDACC700F0FE7B /* Build configuration list for PBXNativeTarget "lanyaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D466C98320EDACC700F0FE7B /* Debug */,
+				D466C98420EDACC700F0FE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D466C98520EDACC700F0FE7B /* Build configuration list for PBXNativeTarget "lanyaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D466C98620EDACC700F0FE7B /* Debug */,
+				D466C98720EDACC700F0FE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D466C98820EDACC700F0FE7B /* Build configuration list for PBXNativeTarget "lanyaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D466C98920EDACC700F0FE7B /* Debug */,
+				D466C98A20EDACC700F0FE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D466C94E20EDACC600F0FE7B /* Project object */;
+}
